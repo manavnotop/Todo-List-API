@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
+require('dotenv').config()
 
-mongoose.connect("mongodb+srv://manavnotop:Manav%401443@cluster0.bu6qrds.mongodb.net/Todo-API");
+mongoose.connect(process.env.MONGO_URL);
 
 const userSchema = mongoose.Schema({
     username:{
