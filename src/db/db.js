@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb+srv://manavnotop:%3Cpassword%3E@cluster0.bu6qrds.mongodb.net/todo-api");
+mongoose.connect("mongodb+srv://manavnotop:Manav%401443@cluster0.bu6qrds.mongodb.net/Todo-API");
 
 const userSchema = mongoose.Schema({
     username:{
